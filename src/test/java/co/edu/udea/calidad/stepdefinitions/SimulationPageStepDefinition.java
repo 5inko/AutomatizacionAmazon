@@ -20,7 +20,6 @@ import udea.calidad.userinterfaces.UsuarioPage;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-@RunWith(Cucumber.class)
 public class SimulationPageStepDefinition {
 
     @Managed(driver = "chrome")
